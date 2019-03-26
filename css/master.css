@@ -1,0 +1,135 @@
+/* https://coolors.co/0b3954-c5c3c6-46494c-4c5c68-1985a1 */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#0f4f75, #0b3954);
+}
+
+h1 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#search-bar > input, #search-bar > input::placeholder {
+    color: whitesmoke;
+}
+
+#search-bar > input:hover, #search-bar > input:focus {
+    color: black;
+}
+
+#search-bar > input:hover::placeholder, #search-bar > input:focus::placeholder {
+    color: dimgray;
+}
+
+.meteo-card {
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.info, .line, .card-head, .card-info {
+    flex: 1;
+}
+
+.container-fluid {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+.card-head > .img{
+    flex: 3;
+}
+
+.card-head-text {
+    flex: 6;
+}
+
+.temp {
+    flex: 2;
+}
+
+.info * {
+    font-size: 1.2em;
+    align-self: center;
+    color: white;
+}
+
+.units {
+    font-size: 1em;
+    color: lightgray;
+}
+
+.card-head-text p {
+    margin: 0;
+
+}
+
+p#city {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5em;
+}
+
+p#date {
+    color: lightgray;
+    font-style: italic;
+}
+
+.temp {
+    font-size: 3em;
+    font-weight: lighter;
+    color: white;
+}
+
+.temp i {
+    color: lightgray;
+}
+
+main {
+    height: 100%;
+}
+
+/* === SVG integration === */
+
+.img {
+    min-height: 50px;
+    min-width: 50px;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+section {
+    transition: .5s;
+}
+
+/* === HEADER === */
+
+header {
+    transition: .5s;
+}
+
+.h-top {
+    background-color: rgba(32, 101, 142, .7);
+}
+
+.h-center {
+    background: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h-center > * {
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}

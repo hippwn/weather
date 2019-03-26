@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Da weazer app maboyyyy</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/weather-icons.min.css">
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="row px-5 py-3 m-0 h-center col-xl-3 col-lg-4 col-md-6 col-sm-10">
+            <h1 id="app-name" class="text-center mb-4">Da weather</h1>
+            <div id="search-bar" class="input-group">
+                <input class="form-control form-control-lg btn-outline-light" id="city" type="text" name="city" value="" placeholder="Gimme da weather in...">
+                <div class="input-group-append">
+                    <button type="button" id="search-btn" class="btn btn-outline-light"><span class="oi oi-magnifying-glass"></span></button>
+                </div>
+            </div>
+            <button type="button" id="reset-btn" class="btn btn-outline-light">RESET</button>
+        </header>
+
+        <div class="container-fluid">
+            <main class="row d-flex justify-content-around"></main>
+        </div>
+
+        <!-- Load scripts at the end of the document -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/index.js" defer></script>
+    </body>
+</html>
